@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "fuerzaBrutaMultihilo/1.0.0": {
+        "runtime": {
+          "fuerzaBrutaMultihilo.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "fuerzaBrutaMultihilo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
