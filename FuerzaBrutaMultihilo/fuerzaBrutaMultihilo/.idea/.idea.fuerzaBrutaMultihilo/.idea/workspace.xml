@@ -9,9 +9,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6ff51d25-7203-41fb-9a93-12c44e596808" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.fuerzaBrutaMultihilo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.fuerzaBrutaMultihilo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuerzaBrutaMultihilo/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/fuerzaBrutaMultihilo/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuerzaBrutaMultihilo/obj/Debug/net8.0/fuerzaBrutaMultihilo.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/fuerzaBrutaMultihilo/obj/Debug/net8.0/fuerzaBrutaMultihilo.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuerzaBrutaMultihilo/obj/Debug/net8.0/fuerzaBrutaMultihilo.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/fuerzaBrutaMultihilo/obj/Debug/net8.0/fuerzaBrutaMultihilo.AssemblyInfoInputs.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +42,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.C#&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -86,6 +84,8 @@
       <workItem from="1700413337993" duration="1911000" />
       <workItem from="1700431710663" duration="837000" />
       <workItem from="1700490957379" duration="5827000" />
+      <workItem from="1700497678235" duration="188000" />
+      <workItem from="1700750521787" duration="647000" />
     </task>
     <servers />
   </component>

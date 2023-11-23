@@ -1,0 +1,15 @@
+C:\Users\javil\Desktop\2DAM\gigante de jagger\c#\FuerzaBrutaMultihilo\FuerzaBrutaMultihilo\MultihiloExplicadoXJavi\MultihiloExplicadoXJavi\bin\Debug\net8.0\MultihiloExplicadoXJavi.exe
+C:\Users\javil\Desktop\2DAM\gigante de jagger\c#\FuerzaBrutaMultihilo\FuerzaBrutaMultihilo\MultihiloExplicadoXJavi\MultihiloExplicadoXJavi\bin\Debug\net8.0\MultihiloExplicadoXJavi.deps.json
+C:\Users\javil\Desktop\2DAM\gigante de jagger\c#\FuerzaBrutaMultihilo\FuerzaBrutaMultihilo\MultihiloExplicadoXJavi\MultihiloExplicadoXJavi\bin\Debug\net8.0\MultihiloExplicadoXJavi.runtimeconfig.json
+C:\Users\javil\Desktop\2DAM\gigante de jagger\c#\FuerzaBrutaMultihilo\FuerzaBrutaMultihilo\MultihiloExplicadoXJavi\MultihiloExplicadoXJavi\bin\Debug\net8.0\MultihiloExplicadoXJavi.dll
+C:\Users\javil\Desktop\2DAM\gigante de jagger\c#\FuerzaBrutaMultihilo\FuerzaBrutaMultihilo\MultihiloExplicadoXJavi\MultihiloExplicadoXJavi\bin\Debug\net8.0\MultihiloExplicadoXJavi.pdb
+C:\Users\javil\Desktop\2DAM\gigante de jagger\c#\FuerzaBrutaMultihilo\FuerzaBrutaMultihilo\MultihiloExplicadoXJavi\MultihiloExplicadoXJavi\obj\Debug\net8.0\MultihiloExplicadoXJavi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\javil\Desktop\2DAM\gigante de jagger\c#\FuerzaBrutaMultihilo\FuerzaBrutaMultihilo\MultihiloExplicadoXJavi\MultihiloExplicadoXJavi\obj\Debug\net8.0\MultihiloExplicadoXJavi.AssemblyInfoInputs.cache
+C:\Users\javil\Desktop\2DAM\gigante de jagger\c#\FuerzaBrutaMultihilo\FuerzaBrutaMultihilo\MultihiloExplicadoXJavi\MultihiloExplicadoXJavi\obj\Debug\net8.0\MultihiloExplicadoXJavi.AssemblyInfo.cs
+C:\Users\javil\Desktop\2DAM\gigante de jagger\c#\FuerzaBrutaMultihilo\FuerzaBrutaMultihilo\MultihiloExplicadoXJavi\MultihiloExplicadoXJavi\obj\Debug\net8.0\MultihiloExplicadoXJavi.csproj.CoreCompileInputs.cache
+C:\Users\javil\Desktop\2DAM\gigante de jagger\c#\FuerzaBrutaMultihilo\FuerzaBrutaMultihilo\MultihiloExplicadoXJavi\MultihiloExplicadoXJavi\obj\Debug\net8.0\MultihiloExplicadoXJavi.sourcelink.json
+C:\Users\javil\Desktop\2DAM\gigante de jagger\c#\FuerzaBrutaMultihilo\FuerzaBrutaMultihilo\MultihiloExplicadoXJavi\MultihiloExplicadoXJavi\obj\Debug\net8.0\MultihiloExplicadoXJavi.dll
+C:\Users\javil\Desktop\2DAM\gigante de jagger\c#\FuerzaBrutaMultihilo\FuerzaBrutaMultihilo\MultihiloExplicadoXJavi\MultihiloExplicadoXJavi\obj\Debug\net8.0\refint\MultihiloExplicadoXJavi.dll
+C:\Users\javil\Desktop\2DAM\gigante de jagger\c#\FuerzaBrutaMultihilo\FuerzaBrutaMultihilo\MultihiloExplicadoXJavi\MultihiloExplicadoXJavi\obj\Debug\net8.0\MultihiloExplicadoXJavi.pdb
+C:\Users\javil\Desktop\2DAM\gigante de jagger\c#\FuerzaBrutaMultihilo\FuerzaBrutaMultihilo\MultihiloExplicadoXJavi\MultihiloExplicadoXJavi\obj\Debug\net8.0\MultihiloExplicadoXJavi.genruntimeconfig.cache
+C:\Users\javil\Desktop\2DAM\gigante de jagger\c#\FuerzaBrutaMultihilo\FuerzaBrutaMultihilo\MultihiloExplicadoXJavi\MultihiloExplicadoXJavi\obj\Debug\net8.0\ref\MultihiloExplicadoXJavi.dll
