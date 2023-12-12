@@ -64,10 +64,10 @@ public static class TareaFuerzaBruta
     {
         int numHilos = 4;
         var pos = passList.Count / numHilos;
-        for (int i = 0; i < numHilos-1; i++)
+        for (int i = 0; i < numHilos; i++)
         {
-            //Console.WriteLine(passList.GetRange(i * pos, pos - 1).Count);
-            new Thread(() => CrackearPassword(passList,pass)).Start(); //.GetRange(i * pos, pos)
+            var i1 = i;
+            new Thread(() => CrackearPassword(passList.GetRange(i1 * pos, pos),pass)).Start(); //
         }
     }
     /*

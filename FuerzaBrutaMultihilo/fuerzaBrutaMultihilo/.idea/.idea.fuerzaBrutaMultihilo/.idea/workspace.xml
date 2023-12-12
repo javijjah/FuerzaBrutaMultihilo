@@ -8,10 +8,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ff51d25-7203-41fb-9a93-12c44e596808" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../MultihiloExplicadoXJavi/MultihiloExplicadoXJavi/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MultihiloExplicadoXJavi/MultihiloExplicadoXJavi/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MultihiloExplicadoXJavi/MultihiloExplicadoXJavi/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MultihiloExplicadoXJavi/MultihiloExplicadoXJavi/obj/Debug/net8.0/MultihiloExplicadoXJavi.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../MultihiloExplicadoXJavi/MultihiloExplicadoXJavi/obj/Debug/net8.0/MultihiloExplicadoXJavi.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MultihiloExplicadoXJavi/MultihiloExplicadoXJavi/obj/Debug/net8.0/MultihiloExplicadoXJavi.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../MultihiloExplicadoXJavi/MultihiloExplicadoXJavi/obj/Debug/net8.0/MultihiloExplicadoXJavi.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.fuerzaBrutaMultihilo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.fuerzaBrutaMultihilo/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fuerzaBrutaMultihilo/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/fuerzaBrutaMultihilo/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fuerzaBrutaMultihilo/bin/Debug/net8.0/fuerzaBrutaMultihilo.dll" beforeDir="false" afterPath="$PROJECT_DIR$/fuerzaBrutaMultihilo/bin/Debug/net8.0/fuerzaBrutaMultihilo.dll" afterDir="false" />
@@ -101,7 +97,7 @@
       <workItem from="1700490957379" duration="5827000" />
       <workItem from="1700497678235" duration="188000" />
       <workItem from="1700750521787" duration="647000" />
-      <workItem from="1702400053939" duration="3092000" />
+      <workItem from="1702400053939" duration="3834000" />
     </task>
     <servers />
   </component>
