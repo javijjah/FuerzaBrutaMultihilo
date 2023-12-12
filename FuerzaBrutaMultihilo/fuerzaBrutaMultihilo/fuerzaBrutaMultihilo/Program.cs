@@ -1,6 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using System.Security.Cryptography;
 using System.Text;
 
@@ -10,14 +8,13 @@ public static class TareaFuerzaBruta
 {
     public static void Main()
     {
-        //Zona de la contraseña de la que tenemos el hash, convirtiéndola y obteniendo su valor
-        byte[] passBase = GetHash("33eric33");
-        string passString = DevolverHash(passBase);
         //Zona de acceso y lectura del fichero
         List<String> passList = new List<string>();
         string path = "2151220-passwords.txt";
         //zona de invocación de los métodos que realizan las tareas
         RellenarLista(passList, path);
+        //Zona de la contraseña de la que tenemos el hash, convirtiéndola y obteniendo su valor
+        byte[] passBase = GetRandomPassword(passList);
         var singleClock = Stopwatch.StartNew();
         CrackearPassword(passList, passBase);
         singleClock.Stop();
@@ -26,7 +23,6 @@ public static class TareaFuerzaBruta
         CrackearPasswordMultihilo(passList, passBase);
         multiClock.Stop();
         Console.WriteLine("Tiempo con 4 hilos:" + multiClock.ElapsedMilliseconds);
-        //GestionarMultihilo(passList, passString); el método utilizado antes de corregir mi código
     }
 
     //Esto devuelve el hash en bytes
@@ -35,7 +31,11 @@ public static class TareaFuerzaBruta
         using (HashAlgorithm algoritmo = SHA256.Create())
             return algoritmo.ComputeHash(Encoding.UTF8.GetBytes(password));
     }
-
+    //Este método devolverá una contraseña aleatoria
+    public static byte[] GetRandomPassword(List<String> passList)
+    {
+        return GetHash(passList[(new Random()).Next(passList.Count())]);
+    }
     //Esto convierte el hash en un String hexadecimal que podemos leer
     public static string DevolverHash(byte[] passHash)
     {
@@ -70,8 +70,22 @@ public static class TareaFuerzaBruta
             new Thread(() => CrackearPassword(passList.GetRange(i1 * pos, pos),pass)).Start(); //
         }
     }
+    public static void RellenarLista(List<String> passList, string pathFichero)
+    {
+        using (StreamReader sr =
+               File.OpenText(pathFichero))
+        {
+            string line;
+            while ((line = sr.ReadLine()!) != null)
+            {
+                passList.Add(line);
+            }
+        }
+    }
     /*
      Mi código utilizado antes de corregirlo
+     
+        //GestionarMultihilo(passList, passString); el método utilizado antes de corregir mi código
          public static void CrackearPasswordMultihilo1(List<String> passList, byte[] passString)
     {
         for (var i = 0; i < passList.Count; i++)
@@ -138,16 +152,5 @@ public static class TareaFuerzaBruta
      */
 
     //Esto rellena la lista de contraseñas con las del documento
-    public static void RellenarLista(List<String> passList, string pathFichero)
-    {
-        using (StreamReader sr =
-               File.OpenText(pathFichero))
-        {
-            string line;
-            while ((line = sr.ReadLine()!) != null)
-            {
-                passList.Add(line);
-            }
-        }
-    }
+
 }

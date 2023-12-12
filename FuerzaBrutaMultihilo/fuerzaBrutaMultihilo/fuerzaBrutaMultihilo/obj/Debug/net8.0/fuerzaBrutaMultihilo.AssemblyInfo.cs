@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("fuerzaBrutaMultihilo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0eacc4ac62cbb5d73e1d317a486f2214215e94a0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0cb1a4c19fb78a44ca0bb53c5fd05e92ddd93eb4")]
 [assembly: System.Reflection.AssemblyProductAttribute("fuerzaBrutaMultihilo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("fuerzaBrutaMultihilo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
