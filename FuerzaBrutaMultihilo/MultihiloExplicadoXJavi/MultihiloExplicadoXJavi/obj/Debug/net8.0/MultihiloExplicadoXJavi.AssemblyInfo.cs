@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MultihiloExplicadoXJavi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be721dc54f3842802bc9c4046544401c5cde7f9f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("MultihiloExplicadoXJavi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MultihiloExplicadoXJavi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

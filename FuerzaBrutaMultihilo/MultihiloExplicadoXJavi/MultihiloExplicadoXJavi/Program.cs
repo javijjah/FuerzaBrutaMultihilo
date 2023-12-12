@@ -37,6 +37,7 @@ else
 {
     Console.WriteLine("contraseña null");
 }
+
 int numberOfThreads = 4;
 var step = allLinesText.Count / numberOfThreads;
 for (int i = 0; i < numberOfThreads; i++)

@@ -11,38 +11,22 @@ public static class TareaFuerzaBruta
     public static void Main()
     {
         //Zona de la contraseña de la que tenemos el hash, convirtiéndola y obteniendo su valor
-        byte[] passString = GetHash("33eric33");
-        //string passString = DevolverHash(pass);
+        byte[] passBase = GetHash("33eric33");
+        string passString = DevolverHash(passBase);
         //Zona de acceso y lectura del fichero
         List<String> passList = new List<string>();
         string path = "2151220-passwords.txt";
         //zona de invocación de los métodos que realizan las tareas
         RellenarLista(passList, path);
         var singleClock = Stopwatch.StartNew();
-        CrackearPassword(passList, passString);
+        CrackearPassword(passList, passBase);
         singleClock.Stop();
-        //todo crear hilos y asignarlos solamente a 
         Console.WriteLine("Tiempo con 1 hilo:" + singleClock.ElapsedMilliseconds);
-        GestionarMultihilo(passList, passString);
-    }
-
-    public static void GestionarMultihilo(List<String> passList, byte[] passString)
-    {
-        Thread t1 = new Thread(() => CrackearPasswordMultihilo1(passList, passString));
-        Thread t2 = new Thread(() => CrackearPasswordMultihilo2(passList, passString));
-        Thread t3 = new Thread(() => CrackearPasswordMultihilo3(passList, passString));
-        Thread t4 = new Thread(() => CrackearPasswordMultihilo4(passList, passString));
         var multiClock = Stopwatch.StartNew();
-        t1.Start();
-        t2.Start();
-        t3.Start();
-        t4.Start();
-        t1.Join();
-        t2.Join();
-        t3.Join();
-        t4.Join();
+        CrackearPasswordMultihilo(passList, passBase);
         multiClock.Stop();
         Console.WriteLine("Tiempo con 4 hilos:" + multiClock.ElapsedMilliseconds);
+        //GestionarMultihilo(passList, passString); el método utilizado antes de corregir mi código
     }
 
     //Esto devuelve el hash en bytes
@@ -64,19 +48,31 @@ public static class TareaFuerzaBruta
         return resultado;
     }
 
-    //Esto revisa cada string de la lista de contraseñas para buscar la coincidencia
+    //Esto revisa cada string de la lista de contraseñas pasado por hash para buscar la coincidencia
     public static void CrackearPassword(List<String> passList, byte[] passString)
     {
         foreach (var passtemp in passList)
         {
-            if (GetHash(passtemp).Equals(passString))
+            if (GetHash(passtemp).SequenceEqual(passString))
             {
                 Console.WriteLine("Contraseña encontrada: " + passtemp);
             }
         }
     }
 
-    public static void CrackearPasswordMultihilo1(List<String> passList, byte[] passString)
+    public static void CrackearPasswordMultihilo(List<String> passList,byte[] pass)
+    {
+        int numHilos = 4;
+        var pos = passList.Count / numHilos;
+        for (int i = 0; i < numHilos-1; i++)
+        {
+            //Console.WriteLine(passList.GetRange(i * pos, pos - 1).Count);
+            new Thread(() => CrackearPassword(passList,pass)).Start(); //.GetRange(i * pos, pos)
+        }
+    }
+    /*
+     Mi código utilizado antes de corregirlo
+         public static void CrackearPasswordMultihilo1(List<String> passList, byte[] passString)
     {
         for (var i = 0; i < passList.Count; i++)
         {
@@ -119,6 +115,27 @@ public static class TareaFuerzaBruta
             }
         }
     }
+
+    public static void GestionarMultihilo(List<String> passList, byte[] passString)
+    {
+        Thread t1 = new Thread(() => CrackearPasswordMultihilo1(passList, passString));
+        Thread t2 = new Thread(() => CrackearPasswordMultihilo2(passList, passString));
+        Thread t3 = new Thread(() => CrackearPasswordMultihilo3(passList, passString));
+        Thread t4 = new Thread(() => CrackearPasswordMultihilo4(passList, passString));
+        var multiClock = Stopwatch.StartNew();
+        t1.Start();
+        t2.Start();
+        t3.Start();
+        t4.Start();
+        t1.Join();
+        t2.Join();
+        t3.Join();
+        t4.Join();
+        multiClock.Stop();
+        Console.WriteLine("Tiempo con 4 hilos:" + multiClock.ElapsedMilliseconds);
+    }
+    
+     */
 
     //Esto rellena la lista de contraseñas con las del documento
     public static void RellenarLista(List<String> passList, string pathFichero)
