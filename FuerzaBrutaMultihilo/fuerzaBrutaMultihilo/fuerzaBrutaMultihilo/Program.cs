@@ -19,10 +19,11 @@ public static class TareaFuerzaBruta
         CrackearPassword(passList, passBase);
         singleClock.Stop();
         Console.WriteLine("Tiempo con 1 hilo:" + singleClock.ElapsedMilliseconds);
-        var multiClock = Stopwatch.StartNew();
+        //var multiClock = Stopwatch.StartNew();
         CrackearPasswordMultihilo(passList, passBase);
-        multiClock.Stop();
-        Console.WriteLine("Tiempo con 4 hilos:" + multiClock.ElapsedMilliseconds);
+        //Podemos crear el reloj si queremos, pero al ejecutarse la aplicación de forma asíncrona, no funcionará bien.
+        //multiClock.Stop();
+        //Console.WriteLine("Tiempo con 4 hilos:" + multiClock.ElapsedMilliseconds);
     }
 
     //Esto devuelve el hash en bytes
