@@ -8,7 +8,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ff51d25-7203-41fb-9a93-12c44e596808" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.fuerzaBrutaMultihilo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.fuerzaBrutaMultihilo/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fuerzaBrutaMultihilo/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/fuerzaBrutaMultihilo/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuerzaBrutaMultihilo/bin/Debug/net8.0/fuerzaBrutaMultihilo.dll" beforeDir="false" afterPath="$PROJECT_DIR$/fuerzaBrutaMultihilo/bin/Debug/net8.0/fuerzaBrutaMultihilo.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuerzaBrutaMultihilo/bin/Debug/net8.0/fuerzaBrutaMultihilo.exe" beforeDir="false" afterPath="$PROJECT_DIR$/fuerzaBrutaMultihilo/bin/Debug/net8.0/fuerzaBrutaMultihilo.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuerzaBrutaMultihilo/bin/Debug/net8.0/fuerzaBrutaMultihilo.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/fuerzaBrutaMultihilo/bin/Debug/net8.0/fuerzaBrutaMultihilo.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuerzaBrutaMultihilo/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/fuerzaBrutaMultihilo/obj/Debug/net8.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuerzaBrutaMultihilo/obj/Debug/net8.0/fuerzaBrutaMultihilo.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/fuerzaBrutaMultihilo/obj/Debug/net8.0/fuerzaBrutaMultihilo.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuerzaBrutaMultihilo/obj/Debug/net8.0/fuerzaBrutaMultihilo.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/fuerzaBrutaMultihilo/obj/Debug/net8.0/fuerzaBrutaMultihilo.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuerzaBrutaMultihilo/obj/Debug/net8.0/fuerzaBrutaMultihilo.dll" beforeDir="false" afterPath="$PROJECT_DIR$/fuerzaBrutaMultihilo/obj/Debug/net8.0/fuerzaBrutaMultihilo.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuerzaBrutaMultihilo/obj/Debug/net8.0/fuerzaBrutaMultihilo.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/fuerzaBrutaMultihilo/obj/Debug/net8.0/fuerzaBrutaMultihilo.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuerzaBrutaMultihilo/obj/Debug/net8.0/fuerzaBrutaMultihilo.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/fuerzaBrutaMultihilo/obj/Debug/net8.0/fuerzaBrutaMultihilo.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuerzaBrutaMultihilo/obj/Debug/net8.0/ref/fuerzaBrutaMultihilo.dll" beforeDir="false" afterPath="$PROJECT_DIR$/fuerzaBrutaMultihilo/obj/Debug/net8.0/ref/fuerzaBrutaMultihilo.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fuerzaBrutaMultihilo/obj/Debug/net8.0/refint/fuerzaBrutaMultihilo.dll" beforeDir="false" afterPath="$PROJECT_DIR$/fuerzaBrutaMultihilo/obj/Debug/net8.0/refint/fuerzaBrutaMultihilo.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,11 +99,17 @@
       <workItem from="1700497678235" duration="188000" />
       <workItem from="1700750521787" duration="647000" />
       <workItem from="1702400053939" duration="4631000" />
+      <workItem from="1702910856114" duration="718000" />
+      <workItem from="1702913234168" duration="393000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="executable:docker" />
+    <option featureType="dependencySupport" implementationName="executable:kubectl" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

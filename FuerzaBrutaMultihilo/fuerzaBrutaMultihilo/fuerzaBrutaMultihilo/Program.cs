@@ -6,6 +6,7 @@ namespace fuerzaBrutaMultihilo;
 
 public static class TareaFuerzaBruta
 {
+    private static bool _passEncontrada = false;
     public static void Main()
     {
         //Zona de acceso y lectura del fichero
@@ -54,15 +55,22 @@ public static class TareaFuerzaBruta
     {
         foreach (var passtemp in passList)
         {
+            if (_passEncontrada)
+            {
+                break;
+            }
             if (GetHash(passtemp).SequenceEqual(passString))
             {
                 Console.WriteLine("Contraseña encontrada: " + passtemp);
+                _passEncontrada = true;
+                break;
             }
         }
     }
 
     public static void CrackearPasswordMultihilo(List<String> passList,byte[] pass)
     {
+        _passEncontrada = false;
         int numHilos = 4;
         var pos = passList.Count / numHilos;
         for (int i = 0; i < numHilos; i++)
